@@ -43,11 +43,11 @@ const changeModalState = (state) => {
                 }
                 if(windowWidth[0].value != '' && windowHeight[0].value != ''){
                     windowBtn1.removeAttribute('disabled');
-                }
+                } 
                 if(item.checked){
                     windowBtn2.removeAttribute('disabled');
-                }
-                
+                } 
+
                 console.log(state);
             });
             
